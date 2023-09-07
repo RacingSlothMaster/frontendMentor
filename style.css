@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#right_completed {
+    display: none;
+}
+
+#left {
+    background-image: url(images/bg-main-desktop.png);
+    float: left;
+    width: 33.3%;
+    color: white;
+    padding-top: 8%;
+}
+
+#right {
+    float: right;
+    width: 66.4%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+#card_back,
+#card_front {
+    position: relative;
+    display: inline-block;
+}
+
+#cvc_prev,
+#cardholder,
+#expiry,
+#card_number {
+    position: absolute;
+}
+
+#card_front {
+    margin-left: 30%;
+    margin-bottom: 7%;
+}
+
+#card_back {
+    margin-left: 50%;
+}
+
+#cvc_prev {
+    top: 38%;
+    left: 81%
+}
+
+#cardholder {
+    top: 74%;
+    left: 8%
+}
+
+#expiry {
+    top: 74%;
+    left: 81%
+}
+
+#card_number {
+    font-size: 200%;
+    top: 40%;
+    left: 8%
+}
+
+#attribution {
+    position: absolute;
+    left: 35%;
+    top: 97%;
+}
+
+#form {
+    margin-left: 34%;
+}
+
+#form input {
+    border: 1px solid hsl(270, 3%, 87%);
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+#form_bottom {
+    display: flex;
+}
+
+#name,
+#number,
+#submit {
+    width: 70%
+}
+
+#name,
+#number {
+    padding: 1%;
+}
+
+#expiry_div {
+    width: 30%;
+    margin-right: 3%;
+}
+
+#expiry_input {
+    display: flex;
+}
+
+#expiry_input input {
+    width: 47%;
+}
+
+#month {
+    margin-right: 6%;
+}
+
+#cvc_div {
+    width: 67%;
+}
+
+#cvc_div input {
+    width: 55%;
+}
+
+#submit {
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border: 0px;
+    font-size: 130%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 6%;
+}
